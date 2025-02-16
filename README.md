@@ -10,27 +10,27 @@ This is the backend for the MERN E-Commerce project, built with Node.js, Express
 
 ## 📌 Working of the Project
 
-1️⃣ User Authentication
-Signup: Users can register with name, email, and password.
-Login: Users authenticate using email & password, receiving a JWT token for secure access.
-Protected Routes: Users need authentication (JWT) to access certain routes, like order placement.
+## 1️⃣ User Authentication
+-Signup: Users can register with name, email, and password.
+-Login: Users authenticate using email & password, receiving a JWT token for secure  access.
+-Protected Routes: Users need authentication (JWT) to access certain routes, like order placement.
 
-2️⃣ Product Management
-Get All Products: GET /api/products → Fetches all products.
-Get Product by ID: GET /api/products/:id → Fetches details of a single product.
-Admin CRUD Operations:
+## 2️⃣ Product Management
+-Get All Products: GET /api/products → Fetches all products.
+-Get Product by ID: GET /api/products/:id → Fetches details of a single product.
+-Admin CRUD Operations:
 -Add new products.
 -Update product details.
 -Delete products.
 
-3️⃣ Cart & Wishlist Functionality
-Users can add products to the cart.
-Update cart quantity or remove items.
-Cart data is stored in MongoDB.
+## 3️⃣ Cart & Wishlist Functionality
+-Users can add products to the cart.
+-Update cart quantity or remove items.
+-Cart data is stored in MongoDB.
 
-4️⃣ Order Processing
-Place an Order: POST /api/orders → Users place an order with products from their cart.
-View Orders: GET /api/orders → Users can view their past orders.
+## 4️⃣ Order Processing
+-Place an Order: POST /api/orders → Users place an order with products from their cart.
+-View Orders: GET /api/orders → Users can view their past orders.
 
 ## Tech Stack
 - Node.js
@@ -57,15 +57,7 @@ View Orders: GET /api/orders → Users can view their past orders.
     npm start
     The server will run on http://localhost:5000.
 
-## API Endpoints
-Method	 Endpoint	          Description
-GET	     /api/products	      Fetch all products
-GET	     /api/products/:id	  Fetch a single product
-POST	 /api/auth/login	  User login
-POST	 /api/auth/register   User registration
-POST	 /api/cart         	  Add to cart
-GET	     /api/cart	          Get cart items
-DELETE	 /api/cart/:id	      Remove from cart
+
 
 ## Author
 Thejaswini K
